@@ -29,9 +29,9 @@ function Login(){
             style={{display:'flex',flexDirection:'column',gap:'10px'}}>
             <h1>Login details</h1>
             <p>provide the details</p>
-            <h2 style={{marginRight:"30px"}}>Name</h2>
+            <h2 align="left">Name</h2>
             <input type="text" placeholder="enter the name"ref={firstref}/>
-            <h2>Password</h2>
+            <h2 align="left">Password</h2>
             <input type="password" placeholder="enter password"ref={firstrefs}/>
             <br/>
             <br/>

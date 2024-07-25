@@ -2,8 +2,7 @@ function Card(props){
     return(
         <div className="col-md-4">
         <div className="card" >
-        <img className="card-img-top" src="/women.jpg"  alt="Card image cap"  />
-        <div className="card-body">
+        <img  src="/women.jpg"/>
             <h3>Name:{props.userFromArray}</h3>
             <h3>Id:{props.user.branch}</h3>
             <h3>Place:{props.user.year}</h3>
@@ -11,7 +10,6 @@ function Card(props){
             <button type="button" class="btn btn-primary">Connect</button>
         </div>
         </div>
-        </div>
-  );
+    );
 }
 export default Card;
