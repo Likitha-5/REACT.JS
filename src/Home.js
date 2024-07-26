@@ -1,17 +1,18 @@
-const UserContent=createContext();
+import { createContext } from "react";
+import { Link } from "react-router-dom"; 
+
+export const UserContext = createContext();
 function Home(){
     const [isLogin, setIsLogin]=useState(false);
     return(
-        <UserContent.Provider
+        <UserContext.Provider
         value={{isLogin, setIsLogin}}>
-        <div>
-            {
-                isLogin?
             <div>
-            <h1>WELCOME HOME PAGE</h1>
-        <Link to="/products">WE</Link>
+                {
+                    isLogin ? <Welcome/> : <Tab/>
+                }
             </div>
-            </div>
-    );
+        </UserContext.Provider>
+    )
 }
 export default Home;
