@@ -31,7 +31,7 @@ function DataFetching(){
             <td>{dataItem.id} </td>
             <td>{dataItem.userId} </td>
             <td>{dataItem.title} </td>
-            <td>{dataItem.body}</td>
+            <td>{dataItem.body} </td>
         </tr>
         )}
   </tbody>
