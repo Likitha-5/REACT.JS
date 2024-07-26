@@ -1,5 +1,7 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { Link } from "react-router-dom"; 
+import Welcome from "./Welcome";
+import Tab from "./Tabs";
 
 export const UserContext = createContext();
 function Home(){
