@@ -30,7 +30,7 @@ function DataFetching(){
         <tr key={index}>
             <td>{dataItem.id} </td>
             <td>{dataItem.userId} </td>
-            <td>{dataItem.title}</td>
+            <td>{dataItem.title} </td>
             <td>{dataItem.body}</td>
         </tr>
         )}
