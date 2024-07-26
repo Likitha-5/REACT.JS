@@ -1,14 +1,16 @@
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
-import Ele from './Useref';
-import CardListUI from './CardList';
-function App(){
-    return(
-        <BrowserRouter>
-        <Routes>
-            <Route path="/products" element={<Ele/>}/>
-            <Route path="/" element={<CardListUI/>}/>
-        </Routes>
-        </BrowserRouter>
-    );
+import { BrowserRouter } from "react-router-dom";
+import CardListUI from "./CardList";
+import Home from "./Home";
+import { createContext, useState } from "react";
+export const globalContext=createContext();
+import React from 'react'
+
+function App() {
+  return (
+    <div>
+      
+    </div>
+  )
 }
-export default App;
+
+export default App

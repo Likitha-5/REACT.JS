@@ -1,5 +1,5 @@
 import Card from "./Card"
-function CardListUI() {
+function CardList() {
     //const name="DETAILS";
     const college = "SVECW";
     const userObject = { branch: "AIDS", year: "4" };
@@ -23,4 +23,4 @@ function CardListUI() {
                 </div>
     );
 }
-export default CardListUI;
+export default CardList;
